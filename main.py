@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for Android app
 
 # Enable FastF1 cache
-fastf1.Cache.enable_cache('f1_cache')
+fastf1.Cache.enable_cache(False)
 
 # Global variables to store session data
 current_session = None
